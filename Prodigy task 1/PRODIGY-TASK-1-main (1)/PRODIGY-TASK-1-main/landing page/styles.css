@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}
+
+nav {
+  background-color: black (184, 65%, 37%);
+  color: rgb(10, 1, 1);
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(222, 14, 14, 0.1);
+  font-size: 30px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color:hsl(242, 95%, 45%);
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: peachpuff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: hsl(242, 95%, 45%) ;
+}
+
+.featured-products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.product {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: hsl(242, 95%, 45%);
+}
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: black (255, 255, 255);
+}
+
+footer {
+  background-color: peachpuff;
+  overflow: hidden;
+}
+
